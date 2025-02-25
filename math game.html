@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مسابقة الرياضيات - مدرسة خولة بنت الأزور</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>مسابقة الرياضيات</h1>
+    <h2>مدرسة خولة بنت الأزور</h2>
+    
+    <div id="game">
+        <button id="startGame">ابدأ اللعبة</button>
+
+        <div id="gameContent" style="display: none;">
+            <h3 id="level">المستوى: 1</h3>
+            <h4 id="timer">الوقت المتبقي: 10:00</h4>
+            <p id="question"></p>
+            <input type="number" id="answer" placeholder="إجابتك هنا">
+            <button id="submit">إرسال</button>
+            <p id="feedback"></p>
+            <p>النقاط: <span id="score">0</span></p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: #c7bee0;
+  direction: rtl;
+}
+
+#game {
+  background: rgb(168, 156, 224);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 80px;
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  background-color: #77708a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#feedback {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+h3, h4 {
+  margin: 5px 0;
+}
